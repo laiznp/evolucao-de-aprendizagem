@@ -76,8 +76,7 @@ Repositório referente aos desafios de carreira do curso DDS T17 da Cubos Academ
 - Sei que uma API é utilizada para se comunicar com algo ou algum sistema. Não sei o que significa a silha REST.
 - Não sei do que se trata "orientação a objetos".
 - Não sei nada sobre assincronismo ou funções assíncronas.
-- Sei que herança e polimorfismo são pilares da programação orientada a objetos, conforme aprendido anteriormente no curso.
-- 
+- Sei apenas que herança e polimorfismo são pilares da programação orientada a objetos, conforme aprendido anteriormente no curso.
 
 # O que quero aprender sobre os assuntos que serão abordados nesse módulo?
 
@@ -87,7 +86,7 @@ Repositório referente aos desafios de carreira do curso DDS T17 da Cubos Academ
 - Quero aprender sobre os conceitos e aplicação na prática. Sobre como fazer uma API funcionar e se comunicar com outros sistemas.
 - Gostaria de aprender o que significa o paradigma de programação orientada a objetos (POO) e sua utilidade.
 - Quero aprender sobre programação assíncrona, para entender sua utilidade e possíveis aplicações na prática.
-- 
+- Gostaria de aprofundar o conhecimento sobre os temas herança e polimorfismo, e aprender sobre tratamento de erros, uma vez que é muito útil para evitar que a aplicação seja interrompida/derrubada em caso de erro inesperado.
 
 # Minha evolução: o que aprendi sobre os assuntos que foram abordados nesse módulo?
 
@@ -97,9 +96,73 @@ Repositório referente aos desafios de carreira do curso DDS T17 da Cubos Academ
 - Na aula sobre API-REST aprendi que uma API é um conjunto de instruções que servem para comunicação entre sistemas, e que REST é um conjunto de restrições de arquitetura que podem ser usadas para construção de APIs. Aprendi que o REST define como os recursos serão tratados e que cada um deles possui um identificador. Aprendi sobre manipulação de recursos, para indicar a ação a ser realizada, através de métodos como GET (listar ou acessar um recurso), POST (cadastrar/criar), PUT (alterar por completo), PATCH (alterar um recurso parcialmente) e DELETE (excluir), e sobre códigos de respostas, cujos números iniciais indicam, por exemplo, sucesso (casa dos 200), erro do cliente (casa dos 400) ou erro do servidor (casa dos 500). Aprendi a criar rotas e controladores utilizando tais métodos e fazer a API funcionar.
 - Aprendi sobre os quatro pilares da orientação a objetos, a saber, abstração, encapsulamento, herança e polimorfismo. Aprendi, ainda, que atributos são conjuntos de características, métodos são funcionalidades do objeto e classes são modelos a serem seguidos para que um objeto seja criado. Aprendi sobre método construtor e encapsulamento de classes.
 - Na aula sobre assincronismo e leitura e escrita em arquivos eu aprendi sobre promessas na programação assíncrona, e sobre os métodos "then" (utilizado para especificar o que fazer após a resolução da Promessa, quando esta for resulvida com sucesso), "catch" (responsável por capturar e travar eventuais erros que possam surgir durante o processamento da Promessa) e "finally" (executado ao final, independente do resultado da Promessa). Aprendi sobre a biblioteca "fs", ou file system, nativa do Node.js, que permite interagir com arquivos do sistema, possibilitando ler, criar, escrever etc. Por fim, aprendi sobre o operador "await", que substitui o "then" e é utilizado dentro da função assíncrona para pausar a execução da função até que a Promessa seja resolvida, ou seja, tornando as operações assíncronas mais "organizadas", com execução de forma sequencial.
-- 
+- Aprendi sobre tipagem com interfaces, que é uma forma de definir um "contrato" que classes devem seguir, especificand um conjunto de métodos ou propriedades que uma classe deve implementar, facilitando a reutilização do código. Aprendi sobre as regras de implmentação não só das interfaces, mas também da herança e polimorfismo, e exemplos práticos dos três. Chamamos de herança quando existe uma superclasse que possui métodos e atributos em comum, que são compartilhados com suas subclasses (filhas). O polimorfismo acontece quando uma subclasse invoca um método existente em uma superclasse e, mesmo tendo a mesma assinatura, resulta em um comportamento diferente. No que se refere ao tratamento de erros, aprendi sobre o bloco try-catch e sua utilidade na manutenção do ciclo da aplicação.
 
 </details>
 
 <details>
 <summary>Módulo 4</summary>
+
+# Conteúdos a serem trabalhados nesse módulo:
+
+- Indrodução ao Docker e Docker Compose;
+- Introdução a Banco de Dados;
+- Consultas SQL;
+- Modelagem de Dados;
+- CRUD SQL;
+- Agrupamento e relacionamentos entre tabelas;
+- Conexão Node.js com PostgreSQL;
+- Autenticação e criptografia;
+- Integração com API de terceiros;
+- Git e fluxo de trabalho em equipe;
+- Metodologias Ágeis;
+- Diversidade e inclusão em tecnologia;
+- Marca pessoal e plano de carreira.
+
+# O que eu já sei sobre os assuntos que serão abordados nesse módulo?
+
+- Nunca ouvi falar em Docker ou Docker Compose, de modo que não sei do que se trata.
+- Sei que bancos de dados são utilizados no armazenamento e gerenciamento de informações, e podem se comunicar com aplicações.
+- Sei apenas que SQL é uma linguagem de programação utilizada na manipulação de bancos de dados.
+- Não sei muito sobre modelagem de dados, quais suas utilidades ou tipos.
+- Não sei o que é CRUD SQL.
+- Sobre agrupamento e relacionamento entre tabelas, sei que são formas de interação dos dados contidos num determinado banco, mas não sei na prática como funcionam.
+- Sei que o Node.js é um ambiente de criação e execução de aplicações, e que PostgreSQL é uma ferramenta utilizada principalmente em bancos de dados, mas não sei como se conectam ou comunicam.
+- Sobre autenticação e criptografia sei apenas da sua importância na segurança de dados, e que existem ferramentas que auxiliam na sua implementação.
+- Sobre integração com API de terceiros apenas sei ser possível, mas não como operacionalizar isso.
+- Sei que o Git é muito útil no trabalho em equipe, uma vez que permite a gestão de diferentes versões por colaboradores distintos. Conheço os comandos básicos como git push e git pull, e tenho certa familiaridade com repositporios criados em servidores remotos em razão da utilização do Github desde o início do curso.
+- Não estou familiarizada com o conceito de metodologias ágeis.
+- Diversidade e inclusão são muito importantes em todas as áreas, e têm um papel fundamental na tecnologia especificamente, uma vez que esta desempenha papel crucial ao proporcionar ferramentas e soluções que permitem principalmente maior acessibilidade e inclusão.
+- Marca pessoal está relacionada à nossa imagem e é importante elaborarmos um bom plano de carreira para tornar realidade nossos projetos profissionais.
+
+# O que quero aprender sobre os assuntos que serão abordados nesse módulo?
+
+- Gostaria de aprender sobre o Docker e como utilizar essa ferramenta na prática, assim como o Docker Compose.
+- Gostaria de saber como criar um banco de dados independente, e quais ferramentas e aplicativos são utilizados na sua criação e gestão.
+- Gostaria de saber como fazer consultas em SQL e conhecer os demais comandos utilizados na manipulação de dados.
+- Seria interessante aprender sobre ferramentas de modelagem e sua utilidade.
+- Gostaria de saber o que significa CRUD e sua utilidade.
+- Gostaria de aprender sobre como agrupar e relacionar dados de diferentes tabelas, através de métodos e funções.
+- Gostaria de aprender na prática sobre como comunicar o Node.js com o Postgres.
+- Gostaria de aprender mais sobre autenticação e criptografia, sobre como proteger o usuário e implementar medidas de segurança nas aplicações.
+- Gostaria de aprender como conectar e integrar uma API com a de terceiros, de modo a compartilhar dados e expandir as funcionalidades.
+- Seria interessante aprofundar meus conhecimentos sobre Git, uma vez que já utilizo esta ferramenta na criação de repositórios remotos e na gestão de projetos envolvendo diversos colaboradores, mas ainda de forma superficial.
+- Gostaria de aprender mais sobre práticas e princípios que auxiliem no desenvolvimento de projetos em equipe, uma vez que esta é a realidade do mercado de trabalho em tecnologia.
+- Gostaria de ouvir a experiência de colegas e professores sobre inclusão e diversidade no mercado tech, e aprender como contribuir para que seja cada vez mais inclusivo e acessível a todos.
+- Gostaria de aprender como traçar um bom plano de carreira e como construir minha marca pessoal.
+
+# Minha evolução: o que aprendi sobre os assuntos que foram abordados nesse módulo?
+
+- Aprendi que o Docker é uma ferramenta de virtualização que permite "empacotar" aplicações de maneira isolada, em containers, que funcionam de forma independente, com suas próprias configurações, bibliotecas, softwares etc. Já o Docker Compose permite gerenciar múltiplos conteineres, agindo como um orquestrador de aplicativos. Na aula aprendemos para que servem os conteineres e como criá-los, pausá-los, deletá-los etc.
+- Aprendi sobre os tipos de bancos de dados, a saber, relacional SQL e não relacional SQL. Aprendi sobre tabelas, colunas, chaves primárias, querys, que são comandos escritos para interagir com o banco de dados. Aprendi alguns comandos básicos, como criar tabela, fazer consultas etc.
+- Aprendi sobre o comando SELECT de forma mais aprofundada, bem como sobre o WHERE, que serve para filtrar registros. Aprendi, ainda, sobre a utilização de operadores lógicos, e operadores e predicados de comparação, com diversos exemplos práticos. Ademais, aprendi sobre como ordenar o retorno de uma consulta, através do comando ORDER BY, e sobre como limitá-lo, com o LIMIT, que, quando utilizado com o OFFSET, pode omitir determinados resultados. Aprendi sobre operadores e funções matemáticas, conversão de tipos e funções com datas.
+- Na aula em questão aprendi sobre a estruturação do banco de dados, inclusive no que se refere aos comandos de criação e eliminação de forma mais aprofundada. Aprendi, ainda, sobre restrições (constraints) e tipos de dados numéricos, caracteres, booleano e datas. Aprendi sobre o Navicat, que auxilia na criação de estruturas de bancos de dados, importação e exportação de dados etc. Na aula em questão criamos um banco de dados do zero utilizando a referida ferramenta. 
+- Aprendi que CRUD se refere às quatro principais operações num banco de dados: CREATE, READ, UPDATE e DELETE. Na aula em questão aprendemos sobre os quatro comandos de forma aprofundada (INSERT INTO, SELECT, UPDATE e DELETE), inclusive no que se refere à importância de estipular o que queremos atualizar ou excluir, passando a condição (cláusula WHERE).
+- Na aula em questão aprendi sobre agrupamento de registros através das funções de agregação no SQL, que permitem obter informações resumidas de uma tabela ou conjunto de dados, utilizadas em consultas que retornam um conjunto de resultados, a exemplo da soma, média aritmética etc. Aprendi, ainda, que podemos agrupar linhas de uma tabela através do GROUP BY. Por fim, aprendi sobre os três tipos de relacionamentos/cardinalidades entre tabelas, a saber, relacionamento 1:1, 1:N e N:N, e sobre o JOIN, que combina duas tabelas.
+- Aprendi a instalar e configurar o pg e conectar um banco de dados, bem como sobre a crianção de credenciais seguras e prevenção de ataques de SQL injection. Por fim, aprendi sobre a paginação dos registros.
+- Na primeira parte da aula aprendi sobre os princípios basilares da criptografia, a saber, confidencialidade, integridade, autenticação e não-repúdio. Aprendi, ainda, sobre a criptografia simétrica e o hash criptográfico. Em seguida, na parte prática, aprendi sobre o UUID e o crypto do Node. Utilizamos o bcrypt e o jwt para criptografar senhas e gerar tokens, respectivamente.
+- .
+- .
+- .
+- .
+- .
