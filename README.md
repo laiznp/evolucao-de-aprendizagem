@@ -77,6 +77,11 @@ Repositório referente aos desafios de carreira do curso DDS T17 da Cubos Academ
 - Não sei do que se trata "orientação a objetos".
 - Não sei nada sobre assincronismo ou funções assíncronas.
 - Sei apenas que herança e polimorfismo são pilares da programação orientada a objetos, conforme aprendido anteriormente no curso.
+- O Github é uma plataforma que armazena repositórios de forma remota (na nuvem) através do Git.
+- Comunicação é essencial para criar bons relacionamentos no ambiente de trabalho, assim como na vida pessoal.
+- É importante saber pesquisar e interpretar bem as documentações que acompanham sistemas, produtos e projetos, pois são elas que nos orientam quanto à instalação e funcionamento daqueles.
+- Autoconhecimento e inteligência emocional estão interligados e são fundamentais para o nosso crescimento pessoal e profissional.
+- As tendências em tecnologia mudam de forma acelerada e é importante que estejamos a par das novidades para nos matermos sempre atualizados e consequirmos melhores oportunidades de emprego.
 
 # O que quero aprender sobre os assuntos que serão abordados nesse módulo?
 
@@ -87,6 +92,11 @@ Repositório referente aos desafios de carreira do curso DDS T17 da Cubos Academ
 - Gostaria de aprender o que significa o paradigma de programação orientada a objetos (POO) e sua utilidade.
 - Quero aprender sobre programação assíncrona, para entender sua utilidade e possíveis aplicações na prática.
 - Gostaria de aprofundar o conhecimento sobre os temas herança e polimorfismo, e aprender sobre tratamento de erros, uma vez que é muito útil para evitar que a aplicação seja interrompida/derrubada em caso de erro inesperado.
+- Gostaria de aprender mais sobre as funcionalidades do Github e como usufruir da plataforma da melhor maneira possível.
+- Seria interessante aprender mais sobre comunicação não-violent e escuta ativa, temas que sou familiarizada, mas que nunca consegui aprofundar.
+- Gostaria de aprender dicas sobre leitura de documentações referentes aos sistemas e bibliotecas que utilizamos no curso e continuaremos a utilizar na vida profissional.
+- Gostaria de aprender técnicas para desenvolver o autoconhecimento e a inteligência emocional.
+- Gostaria de aprender sobre as tecnologias que estão em alta no momento e dicas sobre como me manter atualizada no mercado de trabalho.
 
 # Minha evolução: o que aprendi sobre os assuntos que foram abordados nesse módulo?
 
@@ -97,6 +107,11 @@ Repositório referente aos desafios de carreira do curso DDS T17 da Cubos Academ
 - Aprendi sobre os quatro pilares da orientação a objetos, a saber, abstração, encapsulamento, herança e polimorfismo. Aprendi, ainda, que atributos são conjuntos de características, métodos são funcionalidades do objeto e classes são modelos a serem seguidos para que um objeto seja criado. Aprendi sobre método construtor e encapsulamento de classes.
 - Na aula sobre assincronismo e leitura e escrita em arquivos eu aprendi sobre promessas na programação assíncrona, e sobre os métodos "then" (utilizado para especificar o que fazer após a resolução da Promessa, quando esta for resulvida com sucesso), "catch" (responsável por capturar e travar eventuais erros que possam surgir durante o processamento da Promessa) e "finally" (executado ao final, independente do resultado da Promessa). Aprendi sobre a biblioteca "fs", ou file system, nativa do Node.js, que permite interagir com arquivos do sistema, possibilitando ler, criar, escrever etc. Por fim, aprendi sobre o operador "await", que substitui o "then" e é utilizado dentro da função assíncrona para pausar a execução da função até que a Promessa seja resolvida, ou seja, tornando as operações assíncronas mais "organizadas", com execução de forma sequencial.
 - Aprendi sobre tipagem com interfaces, que é uma forma de definir um "contrato" que classes devem seguir, especificand um conjunto de métodos ou propriedades que uma classe deve implementar, facilitando a reutilização do código. Aprendi sobre as regras de implmentação não só das interfaces, mas também da herança e polimorfismo, e exemplos práticos dos três. Chamamos de herança quando existe uma superclasse que possui métodos e atributos em comum, que são compartilhados com suas subclasses (filhas). O polimorfismo acontece quando uma subclasse invoca um método existente em uma superclasse e, mesmo tendo a mesma assinatura, resulta em um comportamento diferente. No que se refere ao tratamento de erros, aprendi sobre o bloco try-catch e sua utilidade na manutenção do ciclo da aplicação.
+- Aprendi quais são as dicas para criação de um bom perfil no Github, e sobre a importância das palavras-chave. Aprendi, ainda, sobre o manual de boas práticas e sobre certificações, importantes para comprovar conhecimentos específicos e valorizadas pelo mercado de trabalho.
+- Aprendi sobre os estilos de comunicação, a saber, pessoal, analítico, intuitivo e funcional; e sobre comunicação assertiva e não-violenta. Foram abordados, ainda, temas como o papel da escuta ativa na comunicação e empatia no ambiente de trabalho.
+- Aprendi que saber analisar e interpretar a documentação das ferramentas, frameworks e bibliotecas é essencial para desenvolvedores e programadores, vez que aquela fornece informações detalhadas sobre como utilizar tais tecnologias. Na documentação encontramos conceitos básicos, guias de instalação, tutoriais e exemplos práticos, referências etc.
+- Na aula em questão conversamos sobre a importância do reconhecimento de defeitos, assim como de habilidades e competências. Aprendi sobre a importância de observar padrões comportamentais e reconhecer as próprias emoções (autoconsciência) para ter relações de qualidade e desenvolver novas habilidades sociais. Aprendi, ainda, que parte do processo é observar a mim mesma e aos colegas, praticando a "atenção plena".
+- Aprendi sobre a evolução da tecnologia e os impactos causados por ela, sobre as linguagens consideradas "populares" tanto historicamente quanto no momento atual, e sobre as características que tornam uma linguagem relevante. Ainda, aprendi sobre tendências emergentes em tecnologia, a saber, inteligência artificial (IA) e aprendizado de máquina (ML), computação em nuvem e internet das coisas (IoT). Por fim, foram apresentados recursos e estratégias para nos mantermos atualizados no mercado de trabalho, como a leitura de livros e documentações oficiais, realização de projetos pessoais e open source, participação em eventos e meetups locais, e obtenção de certificações.
 
 </details>
 
