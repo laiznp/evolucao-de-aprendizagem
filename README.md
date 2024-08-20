@@ -179,5 +179,5 @@ Repositório referente aos desafios de carreira do curso DDS T17 da Cubos Academ
 - .
 - .
 - .
-- .
+- Aprendi que embora o mercado ainda seja desigual e o perfil de profissionais tech ainda obedeça a um certo padrão, a tecnologia ao menos vem evoluindo e permitindo que pessoas com deficiência, por exemplo, participem de forma mais plena na sociedade, na medida em que traz soluções de acessibilidade. Aprendi que a tecnologia não é neutra e nem tem como ser, uma vez que carrega os vieses de quem a construiu. Assim, quanto mais diversidade tivermos nos desenvolvedores e profissionais tech, mais democrático será o produto desse trabalho e mais inclusivas as tecnologias criadas e disponibilizadas ao público.
 - .
